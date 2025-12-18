@@ -27,6 +27,19 @@
     "require": {
         "php": ">=7.2"
     },
+    "require-dev": {
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../table-mvc-package",
+            "options": {
+                "symlink": false
+            }
+        }
+    ],
     "autoload": {
         "psr-4": {
             "TableMvc\\": "src/"
