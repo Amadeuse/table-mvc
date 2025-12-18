@@ -1,6 +1,6 @@
 {
-    "name": "yourname/table-mvc",
-    "description": "რეაქტიული ცხრილი AJAX, sorting, pagination, search და column visibility კონტროლით",
+    "name": "Amadeuse/table-mvc",
+    "description": "ცხრილი AJAX, sorting, pagination, search და column visibility კონტროლით",
     "license": "MIT",
     "type": "library",
     "keywords": [
@@ -12,13 +12,20 @@
         "search",
         "php"
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Amadeuse/table-mvc.git"
+        }
+    ],
     "authors": [
         {
-            "name": "Your Name",
-            "email": "your.email@example.com"
+            "name": "Givi Berdzenishvili",
+            "email": "giviberdzenishvili@gmail.com"
         }
     ],
     "require": {
+        "Amadeuse/table-mvc": "dev-main",
         "php": ">=7.2"
     },
     "autoload": {
