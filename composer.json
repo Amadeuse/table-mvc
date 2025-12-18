@@ -1,23 +1,8 @@
 {
-    "name": "amadeuse/table-mvc",
-    "description": "ცხრილი AJAX, sorting, pagination, search და column visibility კონტროლით",
+    "name": "yourcompany/table-mvc-project",
+    "description": "Table MVC პროექტი - რეაქტიული ცხრილი AJAX-ით",
+    "type": "project",
     "license": "MIT",
-    "type": "library",
-    "keywords": [
-        "table",
-        "mvc",
-        "ajax",
-        "pagination",
-        "sorting",
-        "search",
-        "php"
-    ],
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/amadeuse/table-mvc.git"
-        }
-    ],
     "authors": [
         {
             "name": "Givi Berdzenishvili",
@@ -25,7 +10,8 @@
         }
     ],
     "require": {
-        "php": ">=7.2"
+        "php": ">=7.2",
+        "amadeuse/table-mvc": "@dev"
     },
     "require-dev": {
     },
@@ -42,12 +28,8 @@
     ],
     "autoload": {
         "psr-4": {
-            "TableMvc\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "TableMvc\\Tests\\": "tests/"
+            "App\\": "app/",
+            "Config\\": "config/"
         }
     }
 }
