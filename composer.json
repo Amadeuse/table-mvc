@@ -15,7 +15,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/Amadeuse/table-mvc.git"
+            "url": "https://github.com/amadeuse/table-mvc.git"
         }
     ],
     "authors": [
@@ -25,7 +25,7 @@
         }
     ],
     "require": {
-        "Amadeuse/table-mvc": "dev-main",
+        "amadeuse/table-mvc": "dev-main",
         "php": ">=7.2"
     },
     "autoload": {
