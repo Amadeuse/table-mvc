@@ -1,0 +1,34 @@
+{
+    "name": "yourname/table-mvc",
+    "description": "რეაქტიული ცხრილი AJAX, sorting, pagination, search და column visibility კონტროლით",
+    "license": "MIT",
+    "type": "library",
+    "keywords": [
+        "table",
+        "mvc",
+        "ajax",
+        "pagination",
+        "sorting",
+        "search",
+        "php"
+    ],
+    "authors": [
+        {
+            "name": "Your Name",
+            "email": "your.email@example.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "TableMvc\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TableMvc\\Tests\\": "tests/"
+        }
+    }
+}
