@@ -1,5 +1,5 @@
 {
-    "name": "Amadeuse/table-mvc",
+    "name": "amadeuse/table-mvc",
     "description": "ცხრილი AJAX, sorting, pagination, search და column visibility კონტროლით",
     "license": "MIT",
     "type": "library",
